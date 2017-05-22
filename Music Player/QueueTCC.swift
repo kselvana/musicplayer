@@ -9,7 +9,9 @@
 import UIKit
 
 class QueueTCC: UITableViewCell {
+    @IBOutlet weak var imgViewMain: UIImageView!
 
+    @IBOutlet weak var lblName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
